@@ -1,0 +1,96 @@
+* {
+    background-color: #F1F1F4;
+}
+
+.header {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 0 4px #aaa;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: darkgray;
+    padding: 0px 5px;
+}
+
+.nav-bar a{
+    transition: color 0.3s ease;
+}
+
+.nav-bar a:hover {
+    color: rgb(37, 37, 216);
+}
+
+.logo {
+    color: rgb(37, 37, 216);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.button {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    background-color: rgb(37, 37, 216);
+    border-radius: 5px;
+    padding: 5px 4px;
+    border: none;
+}
+
+.main-content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.icon {
+    background-color: yellow;
+}
+
+.main-text {
+    width: 700px;
+}
+
+.image {
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-1 {
+    margin: 50px 0px 20px 400px;
+    width: 550px;
+    height: 700px;
+}
+
+.vaccine-logos {
+    float: inherit;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vaccine-logos img {
+    padding: 0 50px;
+    height: 75px;
+    width: 300px;
+}
